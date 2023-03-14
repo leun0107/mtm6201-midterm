@@ -1,0 +1,30 @@
+.banner1{
+    background-image: url(../images/clothes.png);
+    background-size: cover;
+    height: 645px;
+}
+
+.banner2{
+    background-image: url(../images/neonlight.jpg);
+    background-size: cover;
+    height: 645px;
+}
+
+.banner3{
+    background-image: url(../images/women.jpg);
+    background-size: cover;
+    height: 645px;
+}
+
+.bannertext{
+    padding: 15px;
+    position: relative;
+    top: 265px;
+}
+
+.bannertext2{
+    color: bisque;
+    padding: 15px;
+    position: relative;
+    top: 265px;
+}
