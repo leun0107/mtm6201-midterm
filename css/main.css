@@ -11,12 +11,14 @@ h1{
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
 }
 
 h3{
     font-family: 'PT Serif', serif;
     font-size: 16px;
 }
+
 
 header{
     text-align: center;
@@ -35,6 +37,11 @@ header{
 
 .logo{
    float: left; 
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    transition: transform 0.3s ease-in-out;
 }
 
 nav{
@@ -140,3 +147,87 @@ nav ul li{
     left: 190px;
 }
 
+.grid1{
+    text-align: center;
+    margin-top: -12rem;
+    padding-top: -10px;
+}
+
+.gridtext{
+    color: #ffffff;
+    margin-top: -58px;
+} 
+
+.items{
+    text-align: center;
+}
+
+.items h1{
+    color: #7aab8c;
+}
+
+.abouttext{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -120px;
+    color: #7aab8c;
+    font-size: 16px;
+}
+
+.aboutimg{
+    text-align: center;
+}
+
+.address{
+    text-align: center;
+}
+
+.location{
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+}
+
+.form input{
+    width: 360px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 2.5px;
+}
+
+.form input#message{
+    height: 100px;
+}
+
+.form button {
+	background-color: #7aab8c;
+	color:#e3c086;
+	font-size: 16pt;
+	border: none;
+	padding: 5px;
+	letter-spacing: 1px;
+}
+
+.form button:hover{
+    transform: scale(0.8);
+    transition: transform 0.2s ease-in-out;
+}
+
+.form button:active{
+    transform: scale(1.5);
+    transition: transform 0.2s ease-in-out;
+}
+.hours{
+    text-align: center;
+}
+footer {
+	display: inline-block;
+	width: 100%;
+	background-color: #612120;
+	color: #e3c086;
+	vertical-align: top;
+	padding: 10px 10px;
+}

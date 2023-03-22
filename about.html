@@ -60,11 +60,42 @@
                 quality clothing items at an 
                 affordable price.</p>
         </div>
-
+        
         <div class="aboutimg">
-            <img src="images/exterior.jpg" alt="The exterior look of Thriftz">
-            <img src="images/hands.jpg" alt="Customers' hands picking clothes">
+            <div class="aboutimg1">
+                <picture class="exteriorimg">
+                    <source srcset="images/exterior-205.jpg"
+                            media="(max-width: 390px)" />
+                    
+                    <source srcset="images/exterior-331.jpg"
+                            media="(max-width: 768px)" />
+                
+                    <source srcset="images/exterior-772.jpg"
+                            media="(max-width: 1920px)" />
+                
+                    <img class="orig-img"
+                         src="images/exterior.jpg"
+                         alt="Image of the exterior of Thriftz store">
+                </picture>
+            </div>
+            <div class="aboutimg2">
+                <picture class="womenandmenimg">
+                    <source srcset="images/women-and-men-205.jpg"
+                            media="(max-width: 390px)" />
+                    
+                    <source srcset="images/women-and-men-331.jpg"
+                            media="(max-width: 768px)" />
+                
+                    <source srcset="images/women-and-men-772.jpg"
+                            media="(max-width: 1920px)" />
+                
+                    <img class="orig-img"
+                         src="images/women-and-men.jpg"
+                         alt="Image of the customers of Thriftz store">
+                </picture>
+            </div>
         </div>
+        
     </main>
 
     <footer>
